@@ -1,3 +1,9 @@
+import React from 'react'
+import { IoIosArrowBack } from "react-icons/io";
+import SignupImage from "../assets/farmm.png"
+import { MdOutlineFingerprint } from "react-icons/md";
+
+
 const LoginPage = () => {
     const [emailOrPhone, setEmailOrPhone] = useState('');
     const [password, setPassword] = useState('');
@@ -121,5 +127,5 @@ const LoginPage = () => {
       </div>
     );
   };
-  
-  export default LoginPage
+
+export default LoginPage
