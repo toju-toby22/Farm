@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import SignupImage from "../assets/farmm.png"
+import logo from "../assets/logo.png"
 import { IoIosArrowBack } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
 import ReactCountryFlag from "react-country-flag";
@@ -8,7 +9,7 @@ import { FiUser } from "react-icons/fi";
 import { LuUpload } from "react-icons/lu";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
-
+import { IoHomeOutline } from "react-icons/io5";
 
 
 const countries = [
@@ -183,9 +184,20 @@ const FirstSection = ({ formData, onFormDataChange,onContinue }) => {
                         </span>
                         <p>Already have an account? Log In</p>
                     </div>
+
+
+                    <div className=" logo-nav">
+                        <span className='back_home'>
+                            <img src={logo} alt=''/>
+                        </span>
+                        <span className='home-back'>
+                        <IoHomeOutline />
+                            <p>Back </p>
+                        </span>
+                    </div>
                     <div className="form_body">
                         <div className='create-account'>
-                            <div className='dot-progress'>
+                            <div className='dot-progress check-prog'>
                                 <div className='check_bar'>
                                     <div className="check first-check">
                                         <GoDotFill />

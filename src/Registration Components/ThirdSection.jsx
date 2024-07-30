@@ -5,6 +5,8 @@ import { FaCheck } from "react-icons/fa6";
 import { FaChevronDown } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineFingerprint } from "react-icons/md";
+import { IoHomeOutline } from "react-icons/io5";
+
 
 const ThirdSection = ({ onContinue, onBack }) => {
   const [isSkipChecked, setIsSkipChecked] = useState(false);

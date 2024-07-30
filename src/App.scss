@@ -423,9 +423,14 @@ cursor: pointer;
 
 
 
+.dot-progress{
+  display: flex;
+  align-items: center;
+}
 
-
-
+.logo-nav{
+  display: none;
+}
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
@@ -433,7 +438,25 @@ cursor: pointer;
 }
 
 @media (max-width: 768px) {
- 
+.home-back{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.check-prog{
+  display: none;
+}
+.form_hader{
+  font-size: 20px;
+}
+  .logo-nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+ .already-have-an-account{
+  display: none;
+ }
 .container{
   flex-direction: column;
 
@@ -443,10 +466,7 @@ cursor: pointer;
 }
 .Form{
 }
-.dot-progress{
-  display: flex;
-  align-items: center;
-}
+
 
 .Image{
   display: none;

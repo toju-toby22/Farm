@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
 import { FaChevronDown } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
-
+import { IoHomeOutline } from "react-icons/io5";
 const SecondSection = ({ formData, onFormDataChange, onContinue, onBack }) => {
     const [isActive, setIsActive] = useState(false);
     const [selected, setSelected] = useState(formData.bankDetails.bankName || "");

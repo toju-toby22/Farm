@@ -6,7 +6,7 @@ import ThirdSection from '../Registration Components/ThirdSection'
 import FourthSecion from '../Registration Components/FourthSecion'
 import axios from 'axios';
 import Modal from '../Registration Components/Modal';
-
+import { IoHomeOutline } from "react-icons/io5";
 const RegistrationPage = () => {
   const [currentSection, setCurrentSection] = useState(1);
   const [formData, setFormData] = useState({

@@ -3,7 +3,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import SignupImage from "../assets/farmm.png"
 import { MdOutlineFingerprint } from "react-icons/md";
 
-
+import { IoHomeOutline } from "react-icons/io5";
 const LoginPage = () => {
     const [emailOrPhone, setEmailOrPhone] = useState('');
     const [password, setPassword] = useState('');
